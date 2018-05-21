@@ -2,7 +2,6 @@
 
 namespace Adelf\Config;
 
-
 class Config extends Singletonable
 {
     private $repository;
