@@ -1,0 +1,13 @@
+{
+    "name": "amadeusdelfino/laravel-config-standalone",
+    "description": "An abstraction layer to provide the Laravel framework configuration system decoupled",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Amadeus Delfino",
+            "email": "amadeus.cmd@gmail.com"
+        }
+    ],
+    "require": {}
+}
