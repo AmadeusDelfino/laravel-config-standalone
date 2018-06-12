@@ -11,7 +11,7 @@ class ConfigBag extends Repository
     public function __construct(array $items = [])
     {
         parent::__construct($items);
-        $this->loadConfigurationFiles(env('CONFIGURATION_FILE_PATH'));
+        $this->loadConfigurationFiles(env('CONFIGURATION_FILE_PATH', './configs'));
     }
 
     /**
